@@ -19,6 +19,11 @@ We use the IRIS database (PNSN cataloged). We applied the filter to get the raw 
 ## Result
 The MAE of trained data during K-fold cross-validation iteration is 0.1923, displaying a good fit for the data. The MAE of XGBoost alone is 0.1960, slightly higher than the trained values. However,  the insignificant difference in the errors indicates that XGBoost did a great job and was sufficient to predict the earthquake's magnitude. Combining the meta-model or Lasso, the MAE is larger than XGBoost's (0.2003 for stacking). Overall, employing an ensemble (i.e., Lasso) is potentially unnecessary if we have only one base model, which is XGBoost. 
 
+## Acknowledgement
+I sincerely thank Napat Srichan (nsrichan@ucsc.edu) for his invaluable assistance in the knowledge domain of coding and insightful suggestions on coding methodologies. His expertise and guidance have significantly contributed to the success of this project. Also, I would like to express my gratitude to Nate Stevens (ntsteven@uw.edu) for his essential role in facilitating the construction of the dataset and feature vectors. His efforts have significantly contributed to the foundational aspects of this academic endeavor.
+
+
+
 ## References
 
 Lara, Pablo, Quentin Bletery, Jean‐paul Ampuero, Adolfo Inza, and Hernando Tavera. "Earthquake Early Warning starting from 3 s of records on a single station with machine learning." Journal of Geophysical Research: Solid Earth 128, no. 11 (2023): e2023JB026575. https://doi.org/10.1029/2023JB026575
