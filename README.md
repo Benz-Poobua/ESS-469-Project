@@ -1,5 +1,12 @@
 # ESS-469-Project
 
+## Introduction
+Earthquakes, known for their unpredictable nature, challenge our current understanding of seismic behavior. The Tohoku Earthquake, for instance, demonstrated the unpredictability of seismic events by striking an area considered low risk at the time (Seth Stein, 2011). Tragically, nearly a million lives have been lost since 1990 due to such events (Lara et al., 2023).
+
+In response to the unpredictable nature of earthquakes, seismologists have developed Early Warning Systems (EWS). These systems involve complex models incorporating various factors, and the advancements in Machine Learning, as exemplified by the work of Mousavi and his team, have led to the continuous development of new models. Notably, a recent paper by Pablo Lara and his team introduces E3WS, a novel single-station Early Warning System characterized by cost-effectiveness and remarkably accurate predictions.
+
+Motivated by Lara's innovative model, our objective is to construct a layered XGBoost Regression model. This model will be trained on offshore low-magnitude earthquakes in the Pacific Northwest, offering insights into its performance and how it compares to existing models.
+
 ## Methodology
 ### Workflow Overview
 In this project, we used the stacked model (ensemble), the same as Lara et al. (2023). A stacked model combines all results from all base models and provides the prediction using the meta-model. From the mentioned literature, the authors used stacking for the source characterization. For this project, we will follow the steps provided by Lara et al. (2023) to see the difference in performance when using different datasets. We will use K-fold (K = 10) cross-validation and XGBoost (XGBRegressor) as the base model. XGBoost does a great job predicting magnitude based on the previously obtained residuals scaled by the learning rate. Lasso is used to regularize the model. 
