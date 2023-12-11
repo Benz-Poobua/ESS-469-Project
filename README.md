@@ -28,5 +28,4 @@ I sincerely thank Napat Srichan (nsrichan@ucsc.edu) for his invaluable assistanc
 
 Lara, Pablo, Quentin Bletery, Jean‐paul Ampuero, Adolfo Inza, and Hernando Tavera. "Earthquake Early Warning starting from 3 s of records on a single station with machine learning." Journal of Geophysical Research: Solid Earth 128, no. 11 (2023): e2023JB026575. https://doi.org/10.1029/2023JB026575
 ![image](https://github.com/Benz-Poobua/ESS-469-Project/assets/146503034/5f404cac-cd05-47e6-8c41-ed10a949c516)
-
 Seth Stein, Robert Geller, Mian Liu; Bad Assumptions or Bad Luck: Why Earthquake Hazard Maps Need Objective Testing. Seismological Research Letters 2011; 82 (5): 623–626. doi: https://doi.org/10.1785/gssrl.82.5.623
