@@ -1,4 +1,8 @@
-# ESS-469-Project
+# Machine Learning (ESS 469) Project
+
+## Contributors
+- Benz Poobua (spoobu@uw.edu)
+- Jake Ward (jakobtw@uw.edu)
 
 ## Introduction
 Earthquakes, known for their unpredictable nature, challenge our current understanding of seismic behavior. The Tohoku Earthquake, for instance, demonstrated the unpredictability of seismic events by striking an area considered low risk at the time (Seth Stein et al., 2011). Tragically, nearly a million lives have been lost since 1990 due to such events (Lara et al., 2023).
@@ -21,8 +25,6 @@ The MAE of trained data during K-fold cross-validation iteration is 0.1923, disp
 
 ## Acknowledgement
 I sincerely thank Napat Srichan (nsrichan@ucsc.edu) for his invaluable assistance in the knowledge domain of coding and insightful suggestions on coding methodologies. His expertise and guidance have significantly contributed to the success of this project. Also, I would like to express my gratitude to Nate Stevens (ntsteven@uw.edu) for his essential role in facilitating the construction of the dataset and feature vectors. His efforts have significantly contributed to the foundational aspects of this academic endeavor.
-
-
 
 ## References
 
