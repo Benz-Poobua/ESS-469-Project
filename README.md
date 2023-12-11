@@ -1,7 +1,7 @@
 # ESS-469-Project
 
 ## Introduction
-Earthquakes, known for their unpredictable nature, challenge our current understanding of seismic behavior. The Tohoku Earthquake, for instance, demonstrated the unpredictability of seismic events by striking an area considered low risk at the time (Seth Stein, 2011). Tragically, nearly a million lives have been lost since 1990 due to such events (Lara et al., 2023).
+Earthquakes, known for their unpredictable nature, challenge our current understanding of seismic behavior. The Tohoku Earthquake, for instance, demonstrated the unpredictability of seismic events by striking an area considered low risk at the time (Seth Stein et al., 2011). Tragically, nearly a million lives have been lost since 1990 due to such events (Lara et al., 2023).
 
 In response to the unpredictable nature of earthquakes, seismologists have developed Early Warning Systems (EWS). These systems involve complex models incorporating various factors, and the advancements in Machine Learning, as exemplified by the work of Mousavi and his team, have led to the continuous development of new models. Notably, a recent paper by Pablo Lara and his team introduces E3WS, a novel single-station Early Warning System characterized by cost-effectiveness and remarkably accurate predictions.
 
@@ -23,3 +23,5 @@ The MAE of trained data during K-fold cross-validation iteration is 0.1923, disp
 
 Lara, Pablo, Quentin Bletery, Jean‐paul Ampuero, Adolfo Inza, and Hernando Tavera. "Earthquake Early Warning starting from 3 s of records on a single station with machine learning." Journal of Geophysical Research: Solid Earth 128, no. 11 (2023): e2023JB026575. https://doi.org/10.1029/2023JB026575
 ![image](https://github.com/Benz-Poobua/ESS-469-Project/assets/146503034/5f404cac-cd05-47e6-8c41-ed10a949c516)
+
+Seth Stein, Robert Geller, Mian Liu; Bad Assumptions or Bad Luck: Why Earthquake Hazard Maps Need Objective Testing. Seismological Research Letters 2011; 82 (5): 623–626. doi: https://doi.org/10.1785/gssrl.82.5.623
